@@ -3,6 +3,7 @@ import { motion, useSpring, useScroll } from "motion/react"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import OurClient from "./components/OurClient"
+import SingleSystem from "./components/SingleSystem"
 
 
 function App() {
@@ -28,11 +29,13 @@ function App() {
                     height: 10,
                     originX: 0,
                     backgroundColor: "#4CAF4F",
+                    zIndex : 9999,
                 }}
           />
         <Header />
         <HeroSection />
         <OurClient />
+        <SingleSystem />
     </>
   )
 }
