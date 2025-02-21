@@ -7,8 +7,15 @@ const Helping = () => {
                 <h1 className="text-[36px] font-semibold ">Helping a local <br /> <span className="text-[#4CAF4F]">business reinvent itself</span></h1>
                 <p className="text-sm text-gray-400">We reached here with our hard work and dedication</p>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 flex flex-col">
+            {/*  */}
+                <div className="w-full flex">
 
+                </div>
+            {/*  */}
+                <div>
+
+                </div>
             </div>
         </section>
     )
