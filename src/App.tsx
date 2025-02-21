@@ -4,6 +4,8 @@ import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import OurClient from "./components/OurClient"
 import SingleSystem from "./components/SingleSystem"
+import Unseen from "./components/Unseen"
+import Helping from "./components/Helping"
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
         <HeroSection />
         <OurClient />
         <SingleSystem />
+        <Unseen />
+        <Helping />
     </>
   )
 }
