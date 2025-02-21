@@ -2,6 +2,7 @@
 import { motion, useSpring, useScroll } from "motion/react"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
+import OurClient from "./components/OurClient"
 
 
 function App() {
@@ -28,10 +29,10 @@ function App() {
                     originX: 0,
                     backgroundColor: "#4CAF4F",
                 }}
-          >
+          />
         <Header />
         <HeroSection />
-      </motion.div >
+        <OurClient />
     </>
   )
 }

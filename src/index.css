@@ -3,5 +3,6 @@
     /* dark --prefersdark */
     themes: light --default 
 }
-
-
+@theme {
+    --font-display: "Inter", serif;
+}
