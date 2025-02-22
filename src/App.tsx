@@ -9,6 +9,7 @@ import Helping from "./components/Helping"
 import ClickSpark from "./Animations/ClickSpark"
 import Design from "./components/Design"
 import Customers from "./components/Customers"
+import Marketing from "./components/Marketing"
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Helping />
           <Design />
           <Customers />
+          <Marketing />
       </ClickSpark>
 
     </>
