@@ -8,6 +8,7 @@ import Unseen from "./components/Unseen"
 import Helping from "./components/Helping"
 import ClickSpark from "./Animations/ClickSpark"
 import Design from "./components/Design"
+import Customers from "./components/Customers"
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Unseen />
           <Helping />
           <Design />
+          <Customers />
       </ClickSpark>
 
     </>
