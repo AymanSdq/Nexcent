@@ -4,12 +4,12 @@ const Design = () => {
     return (
         <section className="w-full py-10 px-[144px] gap-16 flex justify-center items-center">
             <div className="w-[40%]">
-                <img src="/unseen.svg" alt="Unseen Img" />
+                <img src="/Design.svg" alt="Design Img" />
             </div>
             {/* Text */}
             <div className="w-[60%] flex flex-col  gap-6">
-                <h1 className=" font-semibold text-[36px] text-[#4D4D4D]">The unseen of spending three years at Pixelgrade</h1>
-                <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                <h1 className=" font-semibold text-[36px] text-[#4D4D4D]">How to design your site footer like we did</h1>
+                <p className="text-sm text-gray-400">Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
                 <button className="text-white py-3 w-[130px] bg-[#4CAF4F] rounded-sm">Learn More</button>
             </div>
         </section>

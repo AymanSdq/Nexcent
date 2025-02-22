@@ -7,6 +7,7 @@ import SingleSystem from "./components/SingleSystem"
 import Unseen from "./components/Unseen"
 import Helping from "./components/Helping"
 import ClickSpark from "./Animations/ClickSpark"
+import Design from "./components/Design"
 
 
 function App() {
@@ -50,7 +51,8 @@ function App() {
           <SingleSystem />
           <Unseen />
           <Helping />
-          </ClickSpark>
+          <Design />
+      </ClickSpark>
 
     </>
   )
