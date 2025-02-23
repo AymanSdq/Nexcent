@@ -1,6 +1,6 @@
 
 
-const Unseen = () => {
+const Unseen = () => { 
     return (
         <section className="w-full py-10 md:px-[144px] px-6 gap-16 flex max-md:flex-col justify-center items-center">
             <div className="md:w-[40%] w-full">

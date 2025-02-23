@@ -55,8 +55,8 @@ function App() {
           <SingleSystem />
           <Unseen />
           <Helping />
-          {/* <Design />
-          <Customers />
+          <Design />
+          {/* <Customers />
           <Marketing />
           <Demo />
           <Footer /> */}
