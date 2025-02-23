@@ -4,7 +4,7 @@ const OurClient = () => {
         <section className="w-full py-10 md:px-[144px] px-6 flex flex-col gap-4 justify-center items-center">
             <h1 className="text-[#4D4D4D] text-3xl font-semibold">Our Clients</h1>
             <p className="text-sm text-gray-400 text-center">We have been working with some Fortune 500+ clients</p>
-            <div className="w-full max-md:max-w-[320px] md:justify-around max-md:justify-between items-center flex pt-6">
+            <div className="w-full flex-wrap md:justify-around max-md:justify-between items-center flex pt-6">
                 <img src="/Logo7.svg" alt="Logo 7" />
                 <img src="/Logo-1.svg" alt="Logo 1" />
                 <img src="/Logo-2.svg" alt="Logo 2" />
