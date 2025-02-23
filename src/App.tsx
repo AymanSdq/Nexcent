@@ -10,6 +10,8 @@ import ClickSpark from "./Animations/ClickSpark"
 import Design from "./components/Design"
 import Customers from "./components/Customers"
 import Marketing from "./components/Marketing"
+import Demo from "./components/Demo"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -56,6 +58,8 @@ function App() {
           <Design />
           <Customers />
           <Marketing />
+          <Demo />
+          <Footer />
       </ClickSpark>
 
     </>
