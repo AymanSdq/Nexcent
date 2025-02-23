@@ -56,8 +56,8 @@ function App() {
           <Unseen />
           <Helping />
           <Design />
-          {/* <Customers />
-          <Marketing />
+          <Customers />
+          {/* <Marketing />
           <Demo />
           <Footer /> */}
       </ClickSpark>
