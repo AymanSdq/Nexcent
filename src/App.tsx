@@ -59,7 +59,7 @@ function App() {
           <Customers />
           <Marketing />
           <Demo />
-          {/* <Footer /> */}
+          <Footer />
       </ClickSpark>
 
     </>
