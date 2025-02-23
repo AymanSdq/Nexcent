@@ -53,9 +53,9 @@ function App() {
           <HeroSection />
           <OurClient />
           <SingleSystem />
-          {/* <Unseen />
+          <Unseen />
           <Helping />
-          <Design />
+          {/* <Design />
           <Customers />
           <Marketing />
           <Demo />
