@@ -2,10 +2,10 @@
 
 const SingleSystem = () => {
     return (
-        <section className="w-full py-10 px-[144px] flex flex-col gap-4 justify-center items-center">
+        <section className="w-full py-10 md:px-[144px] px-6 flex flex-col gap-4 justify-center items-center">
             <h1 className="text-[#4D4D4D] text-3xl text-center font-semibold">Manage your entire community <br /> in a single system</h1>
             <p className="text-sm text-gray-400">Who is Nextcent suitable for?</p>
-            <div className="w-full justify-between items-center flex pt-6">
+            <div className="w-full justify-around xl:flex-row flex-col gap-4 items-center flex pt-6">
                 {/* Cards */}
                 <div className="w-[299px] text-center h-[300px] justify-center items-center flex flex-col gap-4 shadow-sm px-6 py-12">
                     <img className="w-16" src="/Icon-1.svg" alt="Icons Image 1" />

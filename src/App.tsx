@@ -52,8 +52,8 @@ function App() {
           <Header />
           <HeroSection />
           <OurClient />
-          {/* <SingleSystem />
-          <Unseen />
+          <SingleSystem />
+          {/* <Unseen />
           <Helping />
           <Design />
           <Customers />
