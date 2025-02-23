@@ -57,9 +57,9 @@ function App() {
           <Helping />
           <Design />
           <Customers />
-          {/* <Marketing />
+          <Marketing />
           <Demo />
-          <Footer /> */}
+          {/* <Footer /> */}
       </ClickSpark>
 
     </>
