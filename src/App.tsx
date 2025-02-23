@@ -50,7 +50,7 @@ function App() {
                   }}
             />
           <Header />
-          <HeroSection />
+          {/* <HeroSection />
           <OurClient />
           <SingleSystem />
           <Unseen />
@@ -59,7 +59,7 @@ function App() {
           <Customers />
           <Marketing />
           <Demo />
-          <Footer />
+          <Footer /> */}
       </ClickSpark>
 
     </>

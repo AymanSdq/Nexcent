@@ -20,27 +20,15 @@
                     />{" "}
                     </svg>
                 </div>
-                <ul
-                    tabIndex={0}
-                    className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-                >
-                    <li>
-                    <a>Item 1</a>
-                    </li>
-                    <li>
-                    <a>Parent</a>
-                    <ul className="p-2">
-                        <li>
-                        <a>Submenu 1</a>
-                        </li>
-                        <li>
-                        <a>Submenu 2</a>
-                        </li>
-                    </ul>
-                    </li>
-                    <li>
-                    <a>Item 3</a>
-                    </li>
+                <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                    <li> <a href="#">Home</a> </li>
+                    <li> <a href="#">Service</a> </li>
+                    <li> <a href="#">Feature</a> </li>
+                    <li> <a href="#">Product</a> </li>
+                    <li> <a href="#">Testimonial</a> </li>
+                    <li> <a href="#">FAQ</a> </li>
+                    <li> <a href="#">Login</a> </li>
+
                 </ul>
                 </div>
                 <a href="/">
@@ -58,7 +46,7 @@
                 </ul>
             </div>
             <div className="navbar-end flex gap-4">
-                <a href="#" className="text-[#4CAF4F] px-4">Login</a>
+                <a href="#" className="text-[#4CAF4F] hidden md:flex px-4">Login</a>
                 <a href="#" className="btn text-white px-4 bg-[#4CAF4F]">Sign up</a>
             </div>
         </div>
