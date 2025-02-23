@@ -1,6 +1,6 @@
     const Footer = () => {
     return (
-        <footer className="footer bg-[#263238] text-white sm:footer-horizontal py-10 px-[144px] ">
+        <footer className="footer bg-[#263238] text-white sm:footer-horizontal py-20 px-[144px] ">
         <aside>
             <img src="/logo-footer.svg" alt="Footer logo" />
             <p className="py-6">
@@ -26,13 +26,14 @@
             <a className="link link-hover">Status</a>
         </nav>
         <form>
-            <h6 className="footer-title">Staying up to date</h6>
+            <h6 className="footer-title">Stay up to date</h6>
             <fieldset className="w-80">
             <div className="join">
                 <input
                 type="text"
                 placeholder="username@site.com"
-                className="input input-bordered bg-[#263238] join-item" />
+                className="input text-black input-bordered join-item" />
+                <button className="btn border-none text-white bg-[#4CAF4F] join-item">Subscribe</button>
             </div>
             </fieldset>
         </form>
