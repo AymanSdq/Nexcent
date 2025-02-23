@@ -50,8 +50,8 @@ function App() {
                   }}
             />
           <Header />
-          {/* <HeroSection />
-          <OurClient />
+          <HeroSection />
+          {/* <OurClient />
           <SingleSystem />
           <Unseen />
           <Helping />
