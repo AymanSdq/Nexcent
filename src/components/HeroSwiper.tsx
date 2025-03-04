@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css"
 
-import { Navigation, Pagination } from "swiper/modules"; // Import modules if needed
+import {Pagination } from "swiper/modules"; // Import modules if needed
 
 const HeroSwiper = () => {
     return (
